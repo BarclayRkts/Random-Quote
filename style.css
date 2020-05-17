@@ -1,0 +1,50 @@
+
+body{
+    background: brown;
+    font-family: monospace;
+}
+h1{
+    position: relative;
+    padding-top: 30px;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: xxx-large;
+}
+#container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 2px solid black;
+    height: fit-content;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 400px;
+    box-shadow: 5px 8px black;
+    background-color: blanchedalmond;
+    font-size: 20px;
+}
+
+#btn{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+    background-color: black;
+    border:2px solid black;
+    height: 25px;
+}
+
+#btn:hover{
+    background-color: brown;;
+    border:2px solid black;
+    color: white;
+}
